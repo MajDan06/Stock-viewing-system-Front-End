@@ -52,8 +52,4 @@ class MyTableModel extends AbstractTableModel {
     public String getColumnName(int c) {
           return cols[c];  
     }
-    
-    public void addData(Product product) {
-        data.add(product);
-    }
 }
